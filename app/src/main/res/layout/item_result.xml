@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_r15"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvHandName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ハイカード"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvCards"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="H1 H2 H3 H4 H5"
+            tools:text="H1 H2 H3 H4 H5"
+            android:textColor="@color/secondary_text"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

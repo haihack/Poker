@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <!-- This attributes is used by navigation icon and overflow icon -->
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+
+    <style name="box_ediittext_validation" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxCornerRadiusBottomEnd">2dp</item>
+        <item name="boxCornerRadiusBottomStart">2dp</item>
+        <item name="boxCornerRadiusTopEnd">2dp</item>
+        <item name="boxCornerRadiusTopStart">2dp</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeErrorColor">#FF0000</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintEnabled">false</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="edittext_card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">3</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColorHint">#8A8A8F</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:inputType">textCapCharacters</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:hint">"値を入力"</item>
+
+    </style>
+
+</resources>

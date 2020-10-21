@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvCardName1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="値1"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutCard1"
+        style="@style/box_ediittext_validation"
+        app:counterEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCard1"
+            app:backgroundTint="@android:color/white"
+            style="@style/edittext_card" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvCardName2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="値2"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutCard2"
+        style="@style/box_ediittext_validation"
+        app:counterEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCard2"
+            app:backgroundTint="@android:color/white"
+            style="@style/edittext_card" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvCardName3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="値3"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutCard3"
+        style="@style/box_ediittext_validation"
+        app:counterEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCard3"
+            app:backgroundTint="@android:color/white"
+            style="@style/edittext_card"  />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvCardName4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="値4"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutCard4"
+        style="@style/box_ediittext_validation"
+        app:counterEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCard4"
+            app:backgroundTint="@android:color/white"
+            style="@style/edittext_card"  />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvCardName5"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="値5"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutCard5"
+        style="@style/box_ediittext_validation"
+        app:counterEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCard5"
+            app:backgroundTint="@android:color/white"
+            style="@style/edittext_card"  />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

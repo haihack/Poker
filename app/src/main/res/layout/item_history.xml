@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:gravity="center_vertical"
+    android:padding="@dimen/dimen_18dp"
     android:orientation="horizontal"
-    android:padding="18dp">
+    android:gravity="center_vertical">
 
     <TextView
         android:id="@+id/tvHandName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ハイカード"
-        android:textColor="@color/primary_text"
         android:textSize="17dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:text="@string/item_history_ハイカード" />
 
     <TextView
         android:id="@+id/tvCards"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvHandName"
-        android:text="H1 H2 H3 H4 H5"
-        android:textColor="@color/secondary_text"
         android:textSize="12dp"
-        tools:text="H1 H2 H3 H4 H5" />
+        android:textColor="@color/secondary_text"
+        android:text="@string/item_history_1"
+        tools:text="@string/item_history_1" />
 
     <TextView
         android:id="@+id/tvTime"
@@ -33,9 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@id/tvHandName"
         android:layout_alignParentEnd="true"
-        android:text=""
-        android:textColor="@color/secondary_text"
         android:textSize="12dp"
+        android:textColor="@color/secondary_text"
+        android:text="@string/stringValue1"
         tools:text="YY/DD/MM HH:MM" />
 
 </RelativeLayout>

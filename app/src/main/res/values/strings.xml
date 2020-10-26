@@ -1,5 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Poker</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="app_name">Poker</string>
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="fragment_hand_checking_item_をadd">項目を追加</string>
+	<string name="fragment_hand_checking_値を入力してください">値を入力してください</string>
+	<string name="fragment_hand_checking_results_を_obtained">結果を取得</string>
+	<string name="item_hand_value_1">値1</string>
+	<string name="item_hand_value_2">値2</string>
+	<string name="item_hand_value_3">値3</string>
+	<string name="item_hand_value_4">値4</string>
+	<string name="item_hand_value_5">値5</string>
+	<string name="item_history_ハイカード">ハイカード</string>
+	<string name="item_history_1">H1 H2 H3 H4 H5</string>
+	<string name="item_result_ハイカード">ハイカード</string>
+	<string name="item_result_2">H1 H2 H3 H4 H5</string>
+	<string name="stringValue1"></string>
+    <string name="error_card">1⽤字で表されるスート(S、H、D、C)と1から13の数字の組をカードとする</string>
 </resources>
